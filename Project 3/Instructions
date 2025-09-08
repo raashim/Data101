@@ -1,0 +1,36 @@
+This assignment has two parts:  The first part is  - Forming multiple hypotheses about imdb data set. The second part is testing three of these hypotheses specified in part B.
+
+PART A
+
+The Movies data set which can be found in Files/Datasets 
+
+contains  imdb scores of 12,800+ movies  along with several attributes including budget, gross  genre, content rating etc.
+
+What are the most promising  alternative hypotheses  about imdb scores to test?  Name your three top candidates along with the evidence which backs them up:  either in the form of R instruction(s)  or plot.
+
+Submit code + ppt.
+
+For example "High Budget R movies have lower imdb scores."
+
+"Dramas rated R have higher imdb scores"
+
+This is synthetic data set based on real data set from Kaggle. I have embedded my own patterns in the data to make it a data puzzle. May be you can find out what I did?
+
+PART B
+
+Pick three alternative hypotheses (and corresponding NULL hypotheses), call them A, B, C such:
+
+1) for A, p-value is small (but not zero!), say 0.001? 
+
+2) For B, p-value is close to (but smaller) than critical value, say 0.03
+
+3) For C, p-value is larger than critical value of 0.05, say 0.15  (that is you fail to reject null hypothesis)
+
+NOTE:  These three hypotheses obviously have nothing to do with each other. For example A  can be "R-rated action movies have higher average imdb score than PG-rated comedies"  (what will be NULL hypothesis?), B can be "High Budget Comedies have higher average imdb score than Low Budget Comedies" and C can be High Gross movies have lower  average imdb score than Medium Gross movies
+
+Use any hypothesis test (permutation test, z-test)  from the active textbook, section 9.  Of course run it on your R studio with the Movies data set from HW4.
+
+Clearly state both alternative and NULL hypothesis in each of these three cases - A, B and C.
+
+Power points  (pdf) describing what you did and conclusions plus R code. 
+
