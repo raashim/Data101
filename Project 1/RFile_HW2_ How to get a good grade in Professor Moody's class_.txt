@@ -1,0 +1,42 @@
+﻿> #the moodyJanuary31b dataset has already been imported 
+
+
+> colors <- c('red', 'blue', 'cyan', 'yellow')
+
+
+#Slide 2: Barplot of Grades vs Frequency 
+> barplot(table(moodyJanuary31b$Grade), main='Frequency of Grades', xlab='Grade', ylab='Frequency', col=colors)
+
+
+#Slide 3: Mosaic of Grade vs Texting Habit in Class
+> mosaicplot(moodyJanuary31b$Grade ~ moodyJanuary31b$Texting, xlab = 'Grade', ylab = 'Texting Habits During Class', main = "Mosiac of Grade vs Texing Habit in Class", col=colors, border="black")
+
+
+#Slide 4: Barplots of Grade vs Dozing
+> never_dozing = subset(moodyJanuary31b, Dozing == "Never")
+> barplot(table(never_dozing$Grade), main='Frequency of Grades of Students Who Never Sleep During Class', xlab='Grade', ylab='Frequency', col=colors)
+
+
+> always_dozing = subset(moodyJanuary31b, Dozing == "Always")
+> barplot(table(always_dozing$Grade), main='Frequency of Grades of Students Who Always Sleep During Class', xlab='Grade', ylab='Frequency', col=colors)
+
+
+> sometimes_dozing = subset(moodyJanuary31b, Dozing == "Sometimes")
+> barplot(table(sometimes_dozing$Grade), main='Frequency of Grades of Students Who Sometimes Sleep During Class', xlab='Grade', ylab='Frequency', col=colors)
+
+
+#Slide 5: Barplot of Frequency of Questions 
+> barplot(table(moodyJanuary31b$Asking), main='Frequency of Questions', xlab='Questions', ylab='Frequency', col=colors)
+
+
+#Slide 6: Barplots of Questions vs Grade
+> sometimes_questions = subset(moodyJanuary31b, Asking == "Sometimes")
+> barplot(table(never_questions$Grade), main='Frequency of Grades of Students Who Never Asked Questions During Class', xlab='Grade', ylab='Frequency', col=colors)
+
+
+> often_questions = subset(moodyJanuary31b, Asking == "Often")
+> barplot(table(sometimes_questions$Grade), main='Frequency of Grades of Students Who Sometimes Asked Questions During Class', xlab='Grade', ylab='Frequency', col=colors)
+
+
+> often_questions = subset(moodyJanuary31b, Asking == "Often")
+> barplot(table(often_questions$Grade), main='Frequency of Grades of Students Who Often Asked Questions During Class', xlab='Grade', ylab='Frequency', col=colors)
