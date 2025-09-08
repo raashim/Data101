@@ -1,0 +1,9 @@
+Professor Moody has been teaching statistics 101 class for many years. His teaching evaluations went considerably south with the chief complaint:  he DOES NOT seem to assign grades fairly.   Students compared their scores among themselves and found quite a bit of discrepancies! But their complaints went nowhere since Professor promptly disappeared on vacation after posting the final grades and scores.
+
+A brave and really clever (and sneaky!)  TA,  managed to get hold of the carefully maintained grading table (spanning multiple years) of professor Moody by ….messing a bit with Moody's computer….well,  let's not explain the details because she would get in trouble. What she found out was a remarkably structured account of how professor Moody assigns his grades.
+
+Looks like Professor Moody is in fact very alert in class. He is aware of  what students do,  detecting texting during class and remembering exactly who was dozed off in  class. 
+
+ What is the best advice the new TA, can give future students how to get a good grade in Professor Moody's class?  What factors influence the grade besides the score?   Back your recommendation up with plots and evidence from the attached data.
+
+Here is moody data. Attributes Texting, Asking and Dozing refer to frequency of texting, asking questions and dozing in class. GPA is each student's GPA and Score is he final score in class.
